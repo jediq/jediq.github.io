@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      body {
+        background: rgb(42, 67, 78);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+      }
+      svg {
+        color: cyan;
+        margin: 10px 0 0 0;
+      }
+      h2 {
+        font-weight: normal;
+        font-size: 80px;
+        margin: 0;
+      }
+      p {
+        font-size: 34px;
+        line-height: 50px;
+        padding-bottom: 50px;
+      }
+      a {
+        color: white;
+      }
+
+      .articles {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 30px;
+      }
+
+      article {
+        border: 1px solid white;
+      }
+
+      h4 {
+        border-bottom: 1px solid white;
+        padding: 10px;
+        margin: 0;
+        font-size: 34px;
+      }
+      span {
+        padding: 30px 10px;
+        display: block;
+        font-size: 20px;
+      }
+      section {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      article a {
+        text-decoration: none;
+      }
+
+      div {
+        border-top: 1px solid white;
+        background: teal;
+        padding: 10px;
+      }
+    </style>
+    <title>JEDIQ</title>
+  </head>
+  <body>
+    <section>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 725 240"
+        class="logoImg"
+        alt="Jediq Logo"
+      >
+        <g style="stroke-width:3; stroke:teal" fill="none">
+          <path
+            class="letter_j"
+            d="M 14,120 C 14,221 166,221 166,120 V 1 H 134 V 120 C 134,180 46,180, 46,120 H 14 Z"
+          ></path>
+          <path
+            class="letter_e"
+            d="M 303,172 A 77,76 0 1 1 324,136 L 208,136 A 45,45 1 0 0 281,150 Z M 207,104 C 215,64 280,64 290,104 Z"
+          ></path>
+          <path
+            class="letter_d"
+            d="M 451,1 H 482 V 118 A 75,75 0 1 1 451,60 Z M 406,165 A 20,20 0 1 1 406,77 A 20,20 0 1 1 406,165 Z"
+          ></path>
+          <path
+            class="letter_i"
+            d="M 494,51 H 526 V 194 H 494 Z M 510,38 A 10,10 0 1 1 510,2 A 10,10 0 1 1 510,38 Z"
+          ></path>
+          <path
+            class="letter_q"
+            d="M 656,183 V 238 H 688 V 122 A 75,75 1 1 0 656,183 M 612,77 A 10,10 0 1 1 612,165 A 10,10 0 1 1 612,77 Z"
+          ></path>
+        </g>
+      </svg>
+      <h2>Hello and welcome.</h2>
+      <p>
+        This is pretty much just a playground now, I've been working full time
+        for <a href="https://kainos.com">Kainos</a> for a while now.
+      </p>
+    </section>
+    <h3>Latest toys</h3>
+    <section class="articles">
+      <article>
+        <a href="https://jediq.com/scorecard/index.html">
+          <h4>Scorecard</h4>
+          <span>Simple scorecard with live sharing and updates.</span>
+          <div>GO</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://jediq.com/poker/index.html">
+          <h4>Poker</h4>
+          <span>
+            Poker timer for big screens, configure your blinds and timings.
+          </span>
+          <div>GO</div>
+        </a>
+      </article>
+      <article>
+        <a href="https://jediq.com/spinner.html">
+          <h4>Spinner</h4>
+          <span>
+            A simple arrow spinner a bit like the game of life.
+          </span>
+          <div>GO</div>
+        </a>
+      </article>
+      <!--article>
+        <a href="https://jediq.com/london.html">
+          <h4>London</h4>
+          <span>
+            My concise yet incredibly accurate blog post about london.
+          </span>
+          <div>GO</div>
+        </a>
+      </article-->
+    </section>
+  </body>
+</html>
